@@ -1,0 +1,58 @@
+:root {
+  --violet: blueviolet;
+  --white: #fff;
+}
+
+.nav-bar {
+  display: inline-flex;
+}
+.list {
+  margin-left: 70px;
+  list-style: none;
+  font-size: 17px;
+  transform: translateY(5px);
+  font-weight: bold;
+  transform: translateX(100px);
+  color: #000;
+}
+.list:hover {
+  color: var(--violet);
+  cursor: pointer;
+}
+.header-bar {
+  padding: 19px;
+  box-shadow: 1px 1px 1px #000;
+  background-color: #e7e7eb;
+}
+
+.title {
+  font-weight: bold;
+  font-style: italic;
+  transform: translateX(33px);
+  font-size: 25px;
+}
+
+.head-primary {
+  font-size: 60px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.head-secondary {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 10px;
+  transform: translateY(-16px);
+}
+.headings {
+  text-align: center;
+}
+.head-tertiary {
+  font-size: 38px;
+
+  font-weight: bold;
+}
+
+.para-prime {
+  width: 350px;
+}
